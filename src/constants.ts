@@ -1,6 +1,14 @@
+import { ChainId } from '@baseswapfi/sdk-core'
 import { BigNumber } from '@ethersproject/bignumber'
 
 export const PERMIT2_ADDRESS = '0x000000000022D473030F116dDEE9F6B43aC78BA3'
+
+export const PERMIT2_ADDRESSES = {
+  [ChainId.BASE]: PERMIT2_ADDRESS,
+  [ChainId.SCROLL_SEPOLIA]: '',
+  [ChainId.MODE]: '0x94265f90728993A3f7089049045ceef566A36bB9',
+  [ChainId.MODE_TESTNET]: '',
+}
 
 export const MaxUint48 = BigNumber.from('0xffffffffffff')
 export const MaxUint160 = BigNumber.from('0xffffffffffffffffffffffffffffffffffffffff')
