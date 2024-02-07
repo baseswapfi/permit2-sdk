@@ -1,6 +1,6 @@
 {
   "name": "@baseswapfi/permit2-sdk",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "An sdk for interacting with permit2.",
   "publishConfig": {
     "access": "public"
