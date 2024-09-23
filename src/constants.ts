@@ -8,6 +8,7 @@ export const PERMIT2_ADDRESSES: { [chainId in ChainId]?: string } = {
   [ChainId.SCROLL_SEPOLIA]: '',
   [ChainId.MODE]: '0x94265f90728993A3f7089049045ceef566A36bB9',
   [ChainId.MODE_TESTNET]: '',
+  [ChainId.OPTIMISM]: PERMIT2_ADDRESS,
 }
 
 export const MaxUint48 = BigNumber.from('0xffffffffffff')
